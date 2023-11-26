@@ -182,7 +182,7 @@ class TorrentTagsSetter(_PluginBase):
             for downloader in self._downloaders:
                 downloader_obj = self.__get_downloader(downloader)
                 if self._add_tmdb_id and media_info.tmdb_id:
-                    tag = self._tmdb_id_prefix + media_info.tmdb_id
+                    tag = self._tmdb_id_prefix + str(media_info.tmdb_id)
                     downloader_obj.set_torrents_tag(ids=torrent_hash, tags=tag)
         except Exception as e:
             logger.error(f"设置种子标签失败：{e}")
