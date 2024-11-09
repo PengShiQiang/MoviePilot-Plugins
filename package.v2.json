@@ -1,0 +1,14 @@
+{
+    "TorrentTagsSetter": {
+        "name": "种子标签管理",
+        "description": "在特定事件发生时为种子添加特定 tags",
+        "version": "2.0",
+        "icon": "torrent.png",
+        "color": "#C9221B",
+        "author": "WithdewHua",
+        "level": 1,
+        "history": {
+            "v2.0": "适配 MoviePilot v2"
+        }
+    }
+}
