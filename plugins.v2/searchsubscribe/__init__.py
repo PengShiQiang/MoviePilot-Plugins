@@ -50,7 +50,7 @@ class SearchSubscribe(_PluginBase):
     _event = threading.Event()
 
     _scheduler = None
-    _enabled = True
+    _enabled = False
     _onlyonce = False
     _cron = None
 
