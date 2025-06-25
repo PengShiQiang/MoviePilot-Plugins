@@ -216,7 +216,6 @@ class SearchSubscribe(_PluginBase):
         sub_chain = SubscribeChain()
         for sub in sub_id:
             sub_chain.search(None, 'R', True)
-            time.sleep(120)
         logger.info("所有订阅手动执行搜索成功")
 
 
